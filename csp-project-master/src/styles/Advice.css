@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+.sec{
+    background-color: #c04848;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    width: 90%;
+    margin-top: 30px;
+    margin-left: 40px;
+    transition: .5s ease;
+}
+.sec img{
+    height: 250px;
+    border-radius: 10px;
+}
+.sec h1{
+    color: greenyellow;
+    font-size: 20px;
+}
+.sec p{
+    color: aliceblue;
+    margin-right: 25px;
+    font-size: 18px;
+}
+.sec:hover{
+    background-color:#480048;
+    color:#480048;
+
+    transform: translateY();
+
+}

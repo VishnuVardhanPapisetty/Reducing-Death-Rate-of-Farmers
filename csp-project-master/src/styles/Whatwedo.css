@@ -1,0 +1,48 @@
+.container-r {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1500px;
+  flex-wrap: wrap;
+}
+
+.division {
+  padding: 2rem;
+  border-radius: 10px;
+  color: #fff;
+  width: 300px;
+  min-height: 200px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s;
+}
+
+.division h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.educate {
+  background-color: #00a8ff;
+  font-size: 16px;
+}
+
+.communicate {
+  background-color: #e84118;
+  font-size: 16px;
+}
+
+.research {
+  background-color: #4cd137;
+  font-size: 16px;
+}
+
+.division:hover {
+  transform: scale(1.05);
+}

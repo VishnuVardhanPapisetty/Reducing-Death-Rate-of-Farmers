@@ -1,0 +1,20 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.home{
+    min-height: 100vh;
+    background-image: url('../assets/Farmer.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+  
+}
+.text{
+    font-size: 4rem;
+    color:black; 
+}
